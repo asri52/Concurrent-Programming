@@ -19,7 +19,7 @@ public class MyThread extends Thread{
         String tname = Thread.currentThread().getName();
         int count  = 0;
         for(;;) {
-            System.out.println("Thread name: " + tname + " count: " + count++) ; 
+            System.out.println("Thread name: " + tname + " count: " + count++); 
         }
     }
 }

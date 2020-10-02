@@ -11,7 +11,7 @@ package lab01;
  */
 public class Ex5 {
 
-    static final int NUMTHREADS = 3;
+    static final int NUMTHREADS = 32;
 
     public static void main(String[] args) {
         System.out.println("This machine has "

@@ -17,6 +17,13 @@ public class MyRunnable implements Runnable {
         int count = 0;
         for (;;) { // empty for loop creates an infinite loop, or use while(true)
         System.out.println("This thread is " + tname + " " + count++) ; 
+        
+        //putting the Thread to sleep after its time-slice (printing out its name once
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException ex) {
+            
+        }
         }
     }
     
